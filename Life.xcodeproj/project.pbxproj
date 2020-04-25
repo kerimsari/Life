@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,19 +13,22 @@
 		0A2EB1C32448822F00C0FED1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A2EB1C12448822F00C0FED1 /* Main.storyboard */; };
 		0A2EB1C52448823000C0FED1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A2EB1C42448823000C0FED1 /* Assets.xcassets */; };
 		0A2EB1C82448823000C0FED1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A2EB1C62448823000C0FED1 /* LaunchScreen.storyboard */; };
-		0A2EB1D32448823000C0FED1 /* LifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2EB1D22448823000C0FED1 /* LifeTests.swift */; };
-		0A2EB1DE2448823000C0FED1 /* LifeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2EB1DD2448823000C0FED1 /* LifeUITests.swift */; };
+		0A2EB1EC244882B700C0FED1 /* LifeInitializaterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2EB1EB244882B700C0FED1 /* LifeInitializaterTests.swift */; };
+		0A2EB1EE2448973F00C0FED1 /* LifeInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2EB1ED2448973F00C0FED1 /* LifeInitializer.swift */; };
+		0A2EB1EF2448977300C0FED1 /* LifeInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2EB1ED2448973F00C0FED1 /* LifeInitializer.swift */; };
+		0A2EB1F12448A9A500C0FED1 /* BoardMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2EB1F02448A9A500C0FED1 /* BoardMaker.swift */; };
+		0A2EB1F32448AA8800C0FED1 /* BoardMakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2EB1F22448AA8800C0FED1 /* BoardMakerTests.swift */; };
+		0A2EB1F42448AC4200C0FED1 /* BoardMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2EB1F02448A9A500C0FED1 /* BoardMaker.swift */; };
+		0A2EB1F6244A359200C0FED1 /* BoardPrinter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2EB1F5244A359200C0FED1 /* BoardPrinter.swift */; };
+		0A2EB1F7244A360000C0FED1 /* BoardPrinter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2EB1F5244A359200C0FED1 /* BoardPrinter.swift */; };
+		0AEDA973244B984700B2ADFC /* LifeRunnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEDA971244B984700B2ADFC /* LifeRunnerTests.swift */; };
+		0AEDA975244B991400B2ADFC /* LifeRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEDA974244B991400B2ADFC /* LifeRunner.swift */; };
+		0AEDA976244B992D00B2ADFC /* LifeRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEDA974244B991400B2ADFC /* LifeRunner.swift */; };
+		0AEDA978244F74E500B2ADFC /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEDA977244F74E500B2ADFC /* GridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		0A2EB1CF2448823000C0FED1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0A2EB1B02448822F00C0FED1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0A2EB1B72448822F00C0FED1;
-			remoteInfo = Life;
-		};
-		0A2EB1DA2448823000C0FED1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0A2EB1B02448822F00C0FED1 /* Project object */;
 			proxyType = 1;
@@ -44,11 +47,16 @@
 		0A2EB1C72448823000C0FED1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A2EB1C92448823000C0FED1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A2EB1CE2448823000C0FED1 /* LifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A2EB1D22448823000C0FED1 /* LifeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeTests.swift; sourceTree = "<group>"; };
 		0A2EB1D42448823000C0FED1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0A2EB1D92448823000C0FED1 /* LifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A2EB1DD2448823000C0FED1 /* LifeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeUITests.swift; sourceTree = "<group>"; };
 		0A2EB1DF2448823000C0FED1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A2EB1EB244882B700C0FED1 /* LifeInitializaterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeInitializaterTests.swift; sourceTree = "<group>"; };
+		0A2EB1ED2448973F00C0FED1 /* LifeInitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeInitializer.swift; sourceTree = "<group>"; };
+		0A2EB1F02448A9A500C0FED1 /* BoardMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardMaker.swift; sourceTree = "<group>"; };
+		0A2EB1F22448AA8800C0FED1 /* BoardMakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardMakerTests.swift; sourceTree = "<group>"; };
+		0A2EB1F5244A359200C0FED1 /* BoardPrinter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardPrinter.swift; sourceTree = "<group>"; };
+		0AEDA971244B984700B2ADFC /* LifeRunnerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeRunnerTests.swift; sourceTree = "<group>"; };
+		0AEDA974244B991400B2ADFC /* LifeRunner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeRunner.swift; sourceTree = "<group>"; };
+		0AEDA977244F74E500B2ADFC /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,16 +74,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0A2EB1D62448823000C0FED1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		047C59E23631EC4F23238F2A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		0A2EB1AF2448822F00C0FED1 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +91,7 @@
 				0A2EB1D12448823000C0FED1 /* LifeTests */,
 				0A2EB1DC2448823000C0FED1 /* LifeUITests */,
 				0A2EB1B92448822F00C0FED1 /* Products */,
+				047C59E23631EC4F23238F2A /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,7 +100,6 @@
 			children = (
 				0A2EB1B82448822F00C0FED1 /* Life.app */,
 				0A2EB1CE2448823000C0FED1 /* LifeTests.xctest */,
-				0A2EB1D92448823000C0FED1 /* LifeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,6 +114,11 @@
 				0A2EB1C42448823000C0FED1 /* Assets.xcassets */,
 				0A2EB1C62448823000C0FED1 /* LaunchScreen.storyboard */,
 				0A2EB1C92448823000C0FED1 /* Info.plist */,
+				0A2EB1ED2448973F00C0FED1 /* LifeInitializer.swift */,
+				0A2EB1F02448A9A500C0FED1 /* BoardMaker.swift */,
+				0A2EB1F5244A359200C0FED1 /* BoardPrinter.swift */,
+				0AEDA974244B991400B2ADFC /* LifeRunner.swift */,
+				0AEDA977244F74E500B2ADFC /* GridView.swift */,
 			);
 			path = Life;
 			sourceTree = "<group>";
@@ -113,8 +126,10 @@
 		0A2EB1D12448823000C0FED1 /* LifeTests */ = {
 			isa = PBXGroup;
 			children = (
-				0A2EB1D22448823000C0FED1 /* LifeTests.swift */,
 				0A2EB1D42448823000C0FED1 /* Info.plist */,
+				0A2EB1EB244882B700C0FED1 /* LifeInitializaterTests.swift */,
+				0A2EB1F22448AA8800C0FED1 /* BoardMakerTests.swift */,
+				0AEDA971244B984700B2ADFC /* LifeRunnerTests.swift */,
 			);
 			path = LifeTests;
 			sourceTree = "<group>";
@@ -122,7 +137,6 @@
 		0A2EB1DC2448823000C0FED1 /* LifeUITests */ = {
 			isa = PBXGroup;
 			children = (
-				0A2EB1DD2448823000C0FED1 /* LifeUITests.swift */,
 				0A2EB1DF2448823000C0FED1 /* Info.plist */,
 			);
 			path = LifeUITests;
@@ -166,24 +180,6 @@
 			productReference = 0A2EB1CE2448823000C0FED1 /* LifeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		0A2EB1D82448823000C0FED1 /* LifeUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0A2EB1E82448823000C0FED1 /* Build configuration list for PBXNativeTarget "LifeUITests" */;
-			buildPhases = (
-				0A2EB1D52448823000C0FED1 /* Sources */,
-				0A2EB1D62448823000C0FED1 /* Frameworks */,
-				0A2EB1D72448823000C0FED1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0A2EB1DB2448823000C0FED1 /* PBXTargetDependency */,
-			);
-			name = LifeUITests;
-			productName = LifeUITests;
-			productReference = 0A2EB1D92448823000C0FED1 /* LifeUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -199,11 +195,7 @@
 					};
 					0A2EB1CD2448823000C0FED1 = {
 						CreatedOnToolsVersion = 11.1;
-						TestTargetID = 0A2EB1B72448822F00C0FED1;
-					};
-					0A2EB1D82448823000C0FED1 = {
-						CreatedOnToolsVersion = 11.1;
-						TestTargetID = 0A2EB1B72448822F00C0FED1;
+						LastSwiftMigration = 1110;
 					};
 				};
 			};
@@ -222,7 +214,6 @@
 			targets = (
 				0A2EB1B72448822F00C0FED1 /* Life */,
 				0A2EB1CD2448823000C0FED1 /* LifeTests */,
-				0A2EB1D82448823000C0FED1 /* LifeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -245,13 +236,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0A2EB1D72448823000C0FED1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -259,9 +243,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A2EB1EE2448973F00C0FED1 /* LifeInitializer.swift in Sources */,
+				0AEDA975244B991400B2ADFC /* LifeRunner.swift in Sources */,
+				0AEDA978244F74E500B2ADFC /* GridView.swift in Sources */,
 				0A2EB1C02448822F00C0FED1 /* ViewController.swift in Sources */,
+				0A2EB1F12448A9A500C0FED1 /* BoardMaker.swift in Sources */,
 				0A2EB1BC2448822F00C0FED1 /* AppDelegate.swift in Sources */,
 				0A2EB1BE2448822F00C0FED1 /* SceneDelegate.swift in Sources */,
+				0A2EB1F6244A359200C0FED1 /* BoardPrinter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,15 +258,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A2EB1D32448823000C0FED1 /* LifeTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0A2EB1D52448823000C0FED1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0A2EB1DE2448823000C0FED1 /* LifeUITests.swift in Sources */,
+				0A2EB1EF2448977300C0FED1 /* LifeInitializer.swift in Sources */,
+				0AEDA976244B992D00B2ADFC /* LifeRunner.swift in Sources */,
+				0A2EB1EC244882B700C0FED1 /* LifeInitializaterTests.swift in Sources */,
+				0A2EB1F7244A360000C0FED1 /* BoardPrinter.swift in Sources */,
+				0A2EB1F32448AA8800C0FED1 /* BoardMakerTests.swift in Sources */,
+				0A2EB1F42448AC4200C0FED1 /* BoardMaker.swift in Sources */,
+				0AEDA973244B984700B2ADFC /* LifeRunnerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,11 +275,6 @@
 			isa = PBXTargetDependency;
 			target = 0A2EB1B72448822F00C0FED1 /* Life */;
 			targetProxy = 0A2EB1CF2448823000C0FED1 /* PBXContainerItemProxy */;
-		};
-		0A2EB1DB2448823000C0FED1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0A2EB1B72448822F00C0FED1 /* Life */;
-			targetProxy = 0A2EB1DA2448823000C0FED1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -470,7 +452,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 88JEPHZ2Z8;
 				INFOPLIST_FILE = LifeTests/Info.plist;
@@ -482,9 +464,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kerimsari.LifeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Life.app/Life";
 			};
 			name = Debug;
 		};
@@ -492,7 +474,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 88JEPHZ2Z8;
 				INFOPLIST_FILE = LifeTests/Info.plist;
@@ -506,47 +488,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Life.app/Life";
-			};
-			name = Release;
-		};
-		0A2EB1E92448823000C0FED1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 88JEPHZ2Z8;
-				INFOPLIST_FILE = LifeUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kerimsari.LifeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Life;
-			};
-			name = Debug;
-		};
-		0A2EB1EA2448823000C0FED1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 88JEPHZ2Z8;
-				INFOPLIST_FILE = LifeUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kerimsari.LifeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Life;
 			};
 			name = Release;
 		};
@@ -576,15 +517,6 @@
 			buildConfigurations = (
 				0A2EB1E62448823000C0FED1 /* Debug */,
 				0A2EB1E72448823000C0FED1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0A2EB1E82448823000C0FED1 /* Build configuration list for PBXNativeTarget "LifeUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0A2EB1E92448823000C0FED1 /* Debug */,
-				0A2EB1EA2448823000C0FED1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
