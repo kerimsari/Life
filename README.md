@@ -1,0 +1,6 @@
+# Life
+Swift 5 implementation of John Conways Game of Life using TDD
+
+Unit Tests for other patterns in https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life are welcome....
+
+Happy coding...
